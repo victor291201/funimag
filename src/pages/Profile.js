@@ -1,4 +1,8 @@
 import React,{Component} from 'react';
+import "../styles/styles.css";
+import Navbar from '../components/Navbar';
+
+
 
 class Profile extends Component{
     constructor(props){
@@ -6,11 +10,11 @@ class Profile extends Component{
     }
     render(){
         return(
-            <body>
-                <div className='nav'></div>
+            <div className='body'>
+                <Navbar/>
                 <div className='person'></div>
                 <div className='stats'></div>
-            </body>
+            </div>
 
         )
     }

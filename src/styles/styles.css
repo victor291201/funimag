@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+:root{
+    --color1:#161d3e;
+    --color2:rgb(228, 228, 228);
+    --color3:#ad0021;
+    --color4:white;
+    --color5:#bcb35e;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Ubuntu;
+}
+.body{
+    background-color: var(--color2);
+    display: grid;
+    grid-template-rows:60px auto ;
+}
+.nav{
+    position: relative;
+    background-color: var(--color3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    color: var(--color4);
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    background-image: url(../utilities/logo.PNG);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.nav-pt1{
+    width: 270px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+input{
+    width: 190px;
+    height: 24px;
+    border: 0px;
+    outline: none;
+    border-radius: 4px;
+    padding: 2px 7px;
+}
+.input{
+    width: 200px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.input span{
+    position: absolute;
+    right: 5px;
+    top: -1.5px;
+    color: var(--color5);
+}
+.nav-pt2{
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-pt2 span{
+    cursor: pointer;
+    position: relative;
+}
+.nav-pt2 span:hover{
+    color: var(--color5);
+}
+.nav-pt2 span:nth-child(1):hover::after{
+    font-family:Ubuntu;
+    content:"Inicio";
+    width: 35px;
+    height: 12px;
+    font-size: 11px;
+    position: absolute;
+    background-color: var(--color2);
+    color: black;
+    top: -10px;
+    right: -32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    border: .5px solid black;
+}
+.nav-pt2 span:nth-child(2):hover::after{
+    font-family:Ubuntu;
+    content:"Ranking";
+    width: 48px;
+    height: 12px;
+    font-size: 11px;
+    position: absolute;
+    background-color: var(--color2);
+    color: black;
+    top: -10px;
+    right: -45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    border: .5px solid black;
+}
+.nav-pt2 span:nth-child(3):hover::after{
+    font-family:Ubuntu;
+    content:"Valoracion";
+    width: 60px;
+    height: 12px;
+    font-size: 11px;
+    position: absolute;
+    background-color: var(--color2);
+    color: black;
+    top: -10px;
+    right: -55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    border: .5px solid black;
+}
+.nav-pt3{
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.user{
+    width: 40px;
+    height: 40px;
+    background-image: url(../utilities/profile.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.nav-pt3 p{
+    position: relative;
+    bottom:2px;
+    font-size: 13px;
+}
+.nav-pt3:hover > p{
+    color: var(--color5);
+}
+.menu{
+    position: absolute;
+    bottom: -73px;
+    right: 5px;
+    background-color: var(--color1);
+    border-radius: 5px;
+    transition: 1s all ease;
+}
+.menu-disactive{
+    opacity: 0;
+}
+.menu ul{
+    padding: 8px 10px;
+    margin: 0px;
+}
+.menu ul li{
+    list-style: none;
+    margin:0px 0px 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.menu ul li:hover{
+    color: var(--color5);
+}
+.menu ul li:last-child{
+    margin: 0px;
+}
