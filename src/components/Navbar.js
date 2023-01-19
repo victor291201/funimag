@@ -7,7 +7,7 @@ class Navbar extends Component{
     constructor(props){
         super(props);
         this.state={
-            toggle: true
+            toggle: false
         };
         this.onClick = this.onClick.bind(this);
     }

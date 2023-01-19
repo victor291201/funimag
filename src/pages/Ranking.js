@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import "../styles/styles.css";
 import Navbar from '../components/Navbar';
+import Card from '../components/Card';
 
 
 
@@ -13,13 +14,8 @@ class Ranking extends Component{
             <div className='body'>
                 <Navbar/>
                 <div className='ranking'>
-                    <div className='card'>
-                        <div className='card-pt1'></div>
-                        <div className='card-pt2'>
-                            <div className='card-stats'></div>
-                            <div className='card-reviews'></div>
-                        </div>
-                    </div>
+                    <Card/>
+                    <Card/>
                 </div>
             </div>
 
