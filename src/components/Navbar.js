@@ -5,7 +5,16 @@ import "../styles/styles.css";
 
 class Navbar extends Component{
     constructor(props){
-        super(props)
+        super(props);
+        this.state={
+            toggle: true
+        };
+        this.onClick = this.onClick.bind(this);
+    }
+    onClick=()=>{
+        this.setState(prevState => ({
+            toggle: !prevState.toggle
+        }));
     }
     render(){
         return(
@@ -30,17 +39,28 @@ class Navbar extends Component{
                             star
                         </span>
                     </div>
-                    <div className='nav-pt3'>
+                    <div className='nav-pt3' onClick={this.onClick}>
                         <div className='user'></div>
                         <p>Jane Doe</p>
                     </div>
-                    <div className='menu'>
+                    {
+                        this.state.toggle?
+                            <div className='menu'>
+                                <ul>
+                                    <li>Ver Perfil</li>
+                                    <li>Cambiar Contraseña</li>
+                                    <li>Cerrar Sesion</li>
+                                </ul>
+                            </div>
+                        :
+                        <div className='menu menu-disactive'>
                         <ul>
                             <li>Ver Perfil</li>
                             <li>Cambiar Contraseña</li>
                             <li>Cerrar Sesion</li>
                         </ul>
                     </div>
+                    }
                 </div>
 
         )

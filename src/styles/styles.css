@@ -159,7 +159,7 @@ input{
     right: 5px;
     background-color: var(--color1);
     border-radius: 5px;
-    transition: 1s all ease;
+    transition: .3s all ease;
 }
 .menu-disactive{
     opacity: 0;
