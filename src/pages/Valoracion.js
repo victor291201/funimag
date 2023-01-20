@@ -5,7 +5,7 @@ import Card from '../components/Card';
 
 
 
-class Ranking extends Component{
+class Valoracion extends Component{
     constructor(props){
         super(props)
     }
@@ -25,4 +25,4 @@ class Ranking extends Component{
     }
 }
 
-export default Ranking;
+export default Valoracion;
