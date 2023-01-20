@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+:root{
+    --color1:#161d3e;
+    --color2:rgb(228, 228, 228);
+    --color3:#ad0021;
+    --color4:white;
+    --color5:#bcb35e;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Ubuntu;
+}

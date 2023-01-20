@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+:root{
+    --color1:#161d3e;
+    --color2:rgb(228, 228, 228);
+    --color3:#ad0021;
+    --color4:white;
+    --color5:#bcb35e;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Ubuntu;
+    width: 100%;
+    height: 100%;
+}
+.body{
+    background-color: var(--color2);
+    display: grid;
+    grid-template-rows:60px auto ;
+    grid-template-columns: 400px auto;
+    grid-template-areas: "nav nav"
+                         "profile stats"   ;
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    grid-area: nav;
+}
+.person{
+    grid-area: profile;
+    padding: 20px;
+}
+.stats{
+    grid-area: stats;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.person-img{
+    background-image: url(../../utilities/profile.jfif);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.person-profile h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.person-profile p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.person-gustos{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.gustos{
+    font-size: 12px;
+    width: 180px;
+    height: 77px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5px 0px;
+}
+.gustos p{
+    width: 50px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 5px;
+    padding-bottom: 3px;
+    color: white;
+    margin-top: 5px;
+}
+.logros{
+    font-size: 12px;
+    width: 180px;
+    height: 77px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5px 0px;
+}
+.logros p{
+    width: 50px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 5px;
+    padding-bottom: 3px;
+    color: white;
+}
+.person-logros{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.stats-container{
+    background-color: var(--color4);
+    width: 700px;
+    height: 500px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+.search{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

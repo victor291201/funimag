@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
-import "../styles/styles.css";
+import "../styles/Card1/styles.css";
 
 
 
-function Card(props){
+function Card1(props){
         return(
             <div className='card'>
                 <div className='card-pt1'>
@@ -37,4 +37,4 @@ function Card(props){
     }
 
 
-export default Card;
+export default Card1;
