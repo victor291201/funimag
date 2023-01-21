@@ -18,17 +18,17 @@ class Navbar extends Component{
     }
     render(){
         return(
-                <div className='nav'>
-                    <div className='nav-pt1'>
-                        <div className='logo'></div>
-                        <div className='input'>
+                <div className='Nanav'>
+                    <div className='Nanav-pt1'>
+                        <div className='Nalogo'></div>
+                        <div className='Nainput'>
                             <input type="text" placeholder='Buscar...'/>
                             <span className="material-symbols-outlined">
                                 search
                             </span>
                         </div>
                     </div>
-                    <div className='nav-pt2'>
+                    <div className='Nanav-pt2'>
                         <span class="material-symbols-outlined">
                             home
                         </span>
@@ -39,13 +39,13 @@ class Navbar extends Component{
                             star
                         </span>
                     </div>
-                    <div className='nav-pt3' onClick={this.onClick}>
-                        <div className='user'></div>
+                    <div className='Nanav-pt3' onClick={this.onClick}>
+                        <div className='Nauser'></div>
                         <p>Jane Doe</p>
                     </div>
                     {
                         this.state.toggle?
-                            <div className='menu'>
+                            <div className='Namenu'>
                                 <ul>
                                     <li>Ver Perfil</li>
                                     <li>Cambiar Contraseña</li>
@@ -53,7 +53,7 @@ class Navbar extends Component{
                                 </ul>
                             </div>
                         :
-                        <div className='menu menu-disactive'>
+                        <div className='Namenu Namenu-disactive'>
                         <ul>
                             <li>Ver Perfil</li>
                             <li>Cambiar Contraseña</li>

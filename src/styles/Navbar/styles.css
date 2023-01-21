@@ -13,7 +13,7 @@
     user-select: none;
     font-family: Ubuntu;
 }
-.nav{
+.Nanav{
     position: relative;
     background-color: var(--color3);
     display: flex;
@@ -22,7 +22,7 @@
     padding: 0px 20px;
     color: var(--color4);
 }
-.logo{
+.Nalogo{
     width: 40px;
     height: 40px;
     background-image: url(../../utilities/logo.PNG);
@@ -30,14 +30,14 @@
     background-size: cover;
     border-radius: 50%;
 }
-.nav-pt1{
+.Nanav-pt1{
     width: 270px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-input{
+.Nainput input{
     width: 190px;
     height: 24px;
     border: 0px;
@@ -45,7 +45,7 @@ input{
     border-radius: 4px;
     padding: 2px 7px;
 }
-.input{
+.Nainput{
     width: 200px;
     height: 20px;
     position: relative;
@@ -53,27 +53,27 @@ input{
     align-items: center;
     justify-content: space-evenly;
 }
-.input span{
+.Nainput span{
     position: absolute;
     right: 5px;
     top: -1.5px;
     color: var(--color5);
 }
-.nav-pt2{
+.Nanav-pt2{
     width: 180px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.nav-pt2 span{
+.Nanav-pt2 span{
     cursor: pointer;
     position: relative;
 }
-.nav-pt2 span:hover{
+.Nanav-pt2 span:hover{
     color: var(--color5);
 }
-.nav-pt2 span:nth-child(1):hover::after{
+.Nanav-pt2 span:nth-child(1):hover::after{
     font-family:Ubuntu;
     content:"Inicio";
     width: 35px;
@@ -90,7 +90,7 @@ input{
     z-index: 100;
     border: .5px solid black;
 }
-.nav-pt2 span:nth-child(2):hover::after{
+.Nanav-pt2 span:nth-child(2):hover::after{
     font-family:Ubuntu;
     content:"Ranking";
     width: 48px;
@@ -107,7 +107,7 @@ input{
     z-index: 100;
     border: .5px solid black;
 }
-.nav-pt2 span:nth-child(3):hover::after{
+.Nanav-pt2 span:nth-child(3):hover::after{
     font-family:Ubuntu;
     content:"Valoracion";
     width: 60px;
@@ -124,7 +124,7 @@ input{
     z-index: 100;
     border: .5px solid black;
 }
-.nav-pt3{
+.Nanav-pt3{
     width: 140px;
     height: 50px;
     display: flex;
@@ -132,7 +132,7 @@ input{
     justify-content: space-evenly;
     cursor: pointer;
 }
-.user{
+.Nauser{
     width: 40px;
     height: 40px;
     background-image: url(../../utilities/profile.jfif);
@@ -140,15 +140,15 @@ input{
     background-size: cover;
     border-radius: 50%;
 }
-.nav-pt3 p{
+.Nanav-pt3 p{
     position: relative;
     bottom:2px;
     font-size: 13px;
 }
-.nav-pt3:hover > p{
+.Nanav-pt3:hover > p{
     color: var(--color5);
 }
-.menu{
+.Namenu{
     position: absolute;
     bottom: -73px;
     right: 5px;
@@ -159,22 +159,22 @@ input{
     -moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
     box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
 }
-.menu-disactive{
+.Namenu-disactive{
     opacity: 0;
 }
-.menu ul{
+.Namenu ul{
     padding: 8px 10px;
     margin: 0px;
 }
-.menu ul li{
+.Namenu ul li{
     list-style: none;
     margin:0px 0px 5px;
     font-size: 13px;
     cursor: pointer;
 }
-.menu ul li:hover{
+.Namenu ul li:hover{
     color: var(--color5);
 }
-.menu ul li:last-child{
+.Namenu ul li:last-child{
     margin: 0px;
 }

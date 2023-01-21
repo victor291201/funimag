@@ -11,9 +11,9 @@ class Valoracion extends Component{
     }
     render(){
         return(
-            <div className='body'>
+            <div className='Vabody'>
                 <Navbar/>
-                <div className='ranking'>
+                <div className='Varanking'>
                     <Card1/>
                     <Card1/>
                     <Card1/>

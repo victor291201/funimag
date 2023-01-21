@@ -11,9 +11,9 @@ class Ranking extends Component{
     }
     render(){
         return(
-            <div className='body'>
+            <div className='Rabody'>
                 <Navbar/>
-                <div className='ranking'>
+                <div className='Raranking'>
                     <Card1/>
                     <Card1/>
                     <Card1/>
