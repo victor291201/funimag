@@ -1,7 +1,7 @@
 import Profile from './pages/Profile';
 import Ranking from './pages/Ranking';
 import Valoracion from './pages/Valoracion';
-import './App.css';
+import './styles/BaseStyles/styles.css';
 
 function App() {
   return (

@@ -1,18 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
-:root{
-    --color1:#161d3e;
-    --color2:rgb(228, 228, 228);
-    --color3:#ad0021;
-    --color4:white;
-    --color5:#bcb35e;
-}
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    user-select: none;
-    font-family: Ubuntu;
-}
 .card1{
     width: 80%;
     min-width: 700px;
@@ -24,9 +9,9 @@
     display: grid;
     grid-template-columns: minmax(450px,70%) auto;
     margin-bottom: 20px;
-    -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
-    box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: var(--box-shadow);
+    -moz-box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow);
 }
 .card1:last-child{
     margin-bottom: 0px;
