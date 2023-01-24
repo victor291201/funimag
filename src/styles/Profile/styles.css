@@ -103,7 +103,7 @@
 .Prgustos p{
     width: 50px;
     height: 20px;
-    background-color: blue;
+    background-color: var(--color1);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -126,7 +126,7 @@
 .Prlogros p{
     width: 50px;
     height: 20px;
-    background-color: blue;
+    background-color: var(--color1);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -145,8 +145,8 @@
     width: 80%;
     min-width: 700px;
     height: 500px;
-    border-radius: 5px;
-    border: 1px solid gray;
+    border-radius: var(--border-radius);
+    border: var(--border);
     margin-bottom: 10px;
     padding: 5px 10px;
     box-shadow: var(--box-shadow);
@@ -194,7 +194,7 @@
 .Prpoints{
     width: 15px;
     height: 80px;
-    background-color: red;
+    background-color: var(--color3);
     border-radius: 10px;
 }
 .Prmedia{
@@ -204,21 +204,25 @@
     font-size: 14px;
     font-weight: 600;
 }
+.Prsearch p{
+    font-weight: 600;
+}
 .Prinput{
     position: relative;
     width: 190px;
 }
 .Prinput input{
+    
     width: 190px;
-    height: 24px;
-    border: 1px solid gray;
+    height: 26px;
     outline: none;
-    border-radius: 4px;
-    padding: 2px 7px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 4px 7px;
 }
 .Prinput span{
     position: absolute;
-    right: 0px;
+    right: 1px;
     bottom: 0px;
 }
 .Prsearch{
