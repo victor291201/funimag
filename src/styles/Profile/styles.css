@@ -28,11 +28,39 @@
 }
 .Prperson-img{
     background-image: url(../../utilities/profile.jfif);
+    cursor: pointer;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     background-size: cover;
     background-position: center;
+}
+.Pr-MenuImg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: .5s all ease;
+}
+.Pr-Menu-Disactive{
+    opacity: 0;
+}
+.Pr-MenuImg ul{
+    list-style: none;
+    background-color: var(--color1);
+    width: 165px;
+    height: 57px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+.Pr-MenuImg ul li{
+    margin: 0px 7px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
 }
 .Prperson-profile h1{
     font-size: 22px;

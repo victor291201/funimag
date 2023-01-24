@@ -8,7 +8,16 @@ import Card2 from '../components/Card2';
 
 class Profile extends Component{
     constructor(props){
-        super(props)
+        super(props);
+        this.state={
+            toggle: false
+        };
+        this.onClick = this.onClick.bind(this);
+    }
+    onClick=()=>{
+        this.setState(prevState => ({
+            toggle: !prevState.toggle
+        }));
     }
     render(){
         return(
@@ -16,7 +25,22 @@ class Profile extends Component{
                 <Navbar/>
                 <div className='Prperson'>
                     <div className='Prperson-profile'>
-                        <div className='Prperson-img'></div>
+                        <div className='Prperson-img' onClick={this.onClick}></div>
+                        {this.state.toggle?
+                            <div className='Pr-MenuImg'>
+                                <ul>
+                                    <li>Ver foto de perfil</li>
+                                    <li>Seleccionar foto de perfil</li>
+                                </ul>
+                            </div>
+                            :
+                            <div className='Pr-MenuImg Pr-Menu-Disactive'>
+                                <ul>
+                                    <li>Ver foto de perfil</li>
+                                    <li>Seleccionar foto de perfil</li>
+                                </ul>
+                            </div>
+                        }
                         <h1>Nombres y apellidos</h1>
                         <p>Facultad</p>
                     </div>
