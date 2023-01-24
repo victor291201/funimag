@@ -1,0 +1,75 @@
+.Lgbody{
+    background-color: var(--color2);
+    display: grid;
+    grid-template-columns:minmax(400px,52%) auto ;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+.Lg-pt1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.Lg-pt2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Lg-card{
+    width: 350px;
+    height:273px;
+    background-color: var(--color4);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    padding: 10px 13px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Lg-titulo{
+    font-size: 18px;
+    font-weight: 600;
+    align-self: flex-start;
+}
+.Lginput-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Lginput-container label{
+    font-size: 11px;
+    align-self: flex-start;
+}
+.Lginput-container .Lgolvidaste{
+    font-size: 11px;
+    margin-top: 6px;
+}
+.Lginput-container input{
+    width: 100%;
+    height: 26px;
+    outline: none;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 4px 7px;
+    margin: 0px 0px 10px;
+}
+.Lginput{
+    width: 100%;
+}
+.Lg-card hr{
+    width: 100%;
+    margin: 10px 0px 5px;
+}
+.Lg-card button{
+    width: 110px;
+    height: 25px;
+    margin: 10px 0px;
+}
+.Lginiciars{
+    margin: 7px 0px !important;
+}
