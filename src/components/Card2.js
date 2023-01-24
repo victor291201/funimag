@@ -34,9 +34,11 @@ function Card2(props){
                 <div className='card2-interactions'>
                     <span class="material-symbols-outlined">
                         thumb_up
+                        <p>0</p>
                     </span>
                     <span class="material-symbols-outlined">
                         chat_bubble
+                        <p>0</p>
                     </span>
                 </div>
             </div>

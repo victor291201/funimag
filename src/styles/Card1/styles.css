@@ -60,6 +60,23 @@
     margin-top: 10px;
     margin-bottom: 0px;
 }
+.card1-description::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+.card1-description::-webkit-scrollbar-button:increment,.card1-description::-webkit-scrollbar-button {
+    display: none;
+} 
+.card1-description::-webkit-scrollbar:vertical{
+   width: 10px;
+   background-color: var(--color2);
+   border-radius: 10px;
+}
+.card1-description::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 10px;
+    border: 0px;
+    height: 50px;
+}
 .card1-aditional-info span{
     width: 20px;
     height: 25px;
