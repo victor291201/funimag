@@ -19,7 +19,7 @@
 }
 .Lg-card{
     width: 350px;
-    height:273px;
+    height:256px;
     background-color: var(--color4);
     border-radius: var(--border-radius);
     border: var(--border);
@@ -32,7 +32,6 @@
 .Lg-titulo{
     font-size: 18px;
     font-weight: 600;
-    align-self: flex-start;
 }
 .Lginput-container{
     display: flex;
@@ -43,11 +42,9 @@
 }
 .Lginput-container label{
     font-size: 11px;
-    align-self: flex-start;
 }
-.Lginput-container .Lgolvidaste{
+.Lgolvidaste{
     font-size: 11px;
-    margin-top: 6px;
 }
 .Lginput-container input{
     width: 100%;
@@ -63,13 +60,15 @@
 }
 .Lg-card hr{
     width: 100%;
-    margin: 10px 0px 5px;
+    margin: 10px 0px;
 }
 .Lg-card button{
     width: 110px;
-    height: 25px;
-    margin: 10px 0px;
-}
-.Lginiciars{
-    margin: 7px 0px !important;
+    height: 30px;
+    margin: 0px 0px 10px;
+    background-color: var(--color1);
+    color: var(--color2);
+    border-radius: var(--border-radius);
+    border:0px;
+    outline: none;
 }

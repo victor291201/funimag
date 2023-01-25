@@ -12,11 +12,11 @@ class LogIn extends Component{
             <div className='Lgbody'>
                 <div className='Lg-pt1'>
                     <h1>Funimag</h1>
-                    <p>¡La nueva red social hechas por estudiantes de la universidad del magdalena para estudiantes de la universidad del magdalena!</p>
+                    <p>¡La nueva red social hecha por estudiantes de la universidad del magdalena para estudiantes de la universidad del magdalena!</p>
                 </div>
                 <div className='Lg-pt2'>
                     <div className='Lg-card'>
-                        <p className='Lg-titulo'>Registrarse</p>
+                        <p className='Lg-titulo'>Iniciar sesion</p>
                         <div className='Lginput-container'>
                             <div className='Lginput'>
                                 <label for="correo">Correo:</label>
@@ -27,8 +27,8 @@ class LogIn extends Component{
                                 <input type="password" id="contraseña"/>
                             </div>
                             <button className='Lginiciars'>Iniciar sesion</button>
-                            <p className='Lgolvidaste'>olvidaste tu contraseña</p>
                         </div>
+                        <p className='Lgolvidaste'>¿Olvidaste tu contraseña?</p>
                         <hr/>
                         <button className='Lgregister'>Registrarse</button>
                     </div>
