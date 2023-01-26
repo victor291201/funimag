@@ -34,6 +34,10 @@
     border-radius: 50%;
     background-size: cover;
     background-position: center;
+    transition: 1s all ease;
+}
+.Prperson-img:hover{
+    filter: brightness(50%);
 }
 .Pr-MenuImg{
     position: absolute;
@@ -70,30 +74,34 @@
 .Prperson-profile p{
     font-size: 14px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+.Prdescripcion{
+    font-size: 12px;
+    margin-bottom: 12px;
 }
 .Prperson-stars{
-    width: 170px;
-    height: 30px;
+    width: 130px;
+    height: 25px;
     display: flex;
     justify-content: space-evenly;
     margin-top: -5px;
 }
 .Prperson-stars div{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background-color: var(--color5);
     clip-path: var(--cliphy-star);
 }
 .Prperson-gustos{
     font-size: 14px;
     font-weight: 600;
-    margin: 15px 0px;
+    margin: 5px 0px 15px;
 }
 .Prgustos{
     font-size: 12px;
     width: 180px;
-    height: 77px;
+    height: 50px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -116,7 +124,7 @@
 .Prlogros{
     font-size: 12px;
     width: 180px;
-    height: 77px;
+    height: 50px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -161,48 +169,39 @@
     position: relative;
 }
 .Prcontainer-stats{
-    width: 90%;
+    width: 200px;
     height: 445px;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
     align-items: center;
-    margin: 0px 5%;
     padding: auto;
 }
 .Prstat{
-    height: 170px;
-    width: 100px;
+    height: 20px;
+    width: 180px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: column;
-    margin: 10px 50px;
+    padding: 0px 10px;
 }
 .Prtitle-stat{
     font-weight: 600;
 }
 .Prpoints-ofstat{
-    width: 15px;
-    height: 110px;
+    height: 15px;
+    width: 150px;
     background-color: var(--color2);
     border-radius: 10px;
     display: flex;
     align-items: flex-end;
-    margin: 10px 0px;
+    margin: 0px 10px;
 }
 .Prpoints{
-    width: 15px;
-    height: 80px;
+    height: 15px;
+    width: 80px;
     background-color: var(--color3);
     border-radius: 10px;
-}
-.Prmedia{
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    font-size: 14px;
-    font-weight: 600;
 }
 .Prsearch p{
     font-weight: 600;

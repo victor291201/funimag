@@ -1,9 +1,71 @@
 .Rebody{
-    background-color: var(--color2);
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+.Reimg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+}
+.Reimg .img1{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../utilities/foto1.jpeg);
+    filter: brightness(50%);
+    background-size: cover;
+    background-position: center;
+    transition: 1s opacity ease;
+    opacity: 1;
+}
+.Reimg .img2{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../utilities/foto2.jpg);
+    filter: brightness(50%);
+    background-size: cover;
+    background-position: center;
+    transition: 1s opacity ease;
+    opacity: 1;
+}
+.Reimg .img3{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../utilities/foto3.jpg);
+    filter: brightness(50%);
+    background-size: cover;
+    background-position: center;
+    transition: 1s opacity ease;
+    opacity: 1;
+}
+.Reimg .img4{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../utilities/foto4.jfif);
+    filter: brightness(50%);
+    background-size: cover;
+    background-position: center;
+    transition: 1s opacity ease;
+    opacity: 1;
+}
+.Redisapear{
+    opacity: 0 !important;
 }
 .Recard{
     width: 350px;
@@ -16,6 +78,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 100;
 }
 .Recard h1{
     font-size: 20px;

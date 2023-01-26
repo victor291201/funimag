@@ -44,6 +44,7 @@ class Profile extends Component{
                         <h1>Nombres y apellidos</h1>
                         <p>Facultad</p>
                     </div>
+                    <p className='Prdescripcion'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean turpis ligula, posuere eget erat ac, viverra suscipit massa. Sed id efficitur risus. Nunc pretium eros sem, vitae vulputate arcu rutrum ut. Morbi vulputate, neque ut molestie porta.</p>
                     <div className="Prperson-stars">
                         <div></div>
                         <div></div>
@@ -54,7 +55,6 @@ class Profile extends Component{
                     <div className='Prperson-gustos'>
                         <p>Gustos</p>
                         <div className='Prgustos'>
-                            <p>comer</p>
                             <p>comer</p>
                             <p>comer</p>
                             <p>comer</p>
@@ -72,7 +72,6 @@ class Profile extends Component{
                             <p>comer</p>
                             <p>comer</p>
                             <p>comer</p>
-                            <p>comer</p>
                         </div>
                     </div>
                 </div>
@@ -82,35 +81,55 @@ class Profile extends Component{
                             <h1>stats</h1>
                             <div className='Prcontainer-stats'>
                                 <div className='Prstat'>
-                                    <p className='Prtitle-stat'> Belleza</p>
+                                    <p className='Prtitle-stat'>
+                                        <span class="material-symbols-outlined">
+                                            favorite
+                                        </span>
+                                    </p>
                                     <div className='Prpoints-ofstat'>
                                         <div className='Prpoints'></div>
                                     </div>
                                     <p>4,2</p>
                                 </div>
                                 <div className='Prstat'>
-                                    <p className='Prtitle-stat'>Carisma</p>
+                                    <p className='Prtitle-stat'>
+                                        <span class="material-symbols-outlined">
+                                            psychology
+                                        </span>
+                                    </p>
                                     <div className='Prpoints-ofstat'>
                                         <div className='Prpoints'></div>
                                     </div>
                                     <p>4,2</p>
                                 </div>
                                 <div className='Prstat'>
-                                    <p className='Prtitle-stat'>Humor</p>
+                                    <p className='Prtitle-stat'>
+                                        <span class="material-symbols-outlined">
+                                            cognition
+                                        </span>
+                                    </p>
                                     <div className='Prpoints-ofstat'>
                                         <div className='Prpoints'></div>
                                     </div>
                                     <p>4,2</p>
                                 </div>
                                 <div className='Prstat'>
-                                    <p className='Prtitle-stat'>Inteligencia</p>
+                                    <p className='Prtitle-stat'>
+                                        <span class="material-symbols-outlined">
+                                            smart_toy
+                                        </span>
+                                    </p>
                                     <div className='Prpoints-ofstat'>
                                         <div className='Prpoints'></div>
                                     </div>
                                     <p>4,2</p>
                                 </div>
                                 <div className='Prstat'>
-                                    <p className='Prtitle-stat'>Sociabilidad</p>
+                                    <p className='Prtitle-stat'>
+                                        <span class="material-symbols-outlined">
+                                            groups
+                                        </span>
+                                    </p>
                                     <div className='Prpoints-ofstat'>
                                         <div className='Prpoints'></div>
                                     </div>
@@ -118,7 +137,6 @@ class Profile extends Component{
                                 </div>
                                 
                             </div>
-                            <p className='Prmedia'>media (4,2)</p>
                         </div>
                         
                     </div>
