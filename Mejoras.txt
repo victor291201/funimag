@@ -1,6 +1,5 @@
 barras con colores gay
 velocimetro con colores para la media
-tooltip
 
 gustos poner lo que no te gusta tambien
 estado civil
@@ -13,7 +12,6 @@ hilos para los comentarios
 
 inicio
 a izquierda datos de tu perfil
-fecha de publicaciones
 personas que se unieron recientemente
 
 terminos y condiciones para salvarnos legalmente
