@@ -74,6 +74,10 @@ class Profile extends Component{
                             <p>comer</p>
                         </div>
                     </div>
+                    <div className='Prsocial'>
+                        <p>Jane_doe123</p>
+                        <p>Jane doe orozco</p>
+                    </div>
                 </div>
                 <div className='Prstats'>
                     <div className='Prstats-container'>
@@ -138,11 +142,9 @@ class Profile extends Component{
                                 
                             </div>
                         </div>
-                        
                     </div>
                         <div className='Prsearch'>
                             <p>valoracion y reseñas</p>
-                            
                             <div className='Prinput'>
                                 <input type="text" placeholder='Buscar...'/>
                                 <span className="material-symbols-outlined">

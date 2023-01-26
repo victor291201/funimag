@@ -19,12 +19,15 @@ function Card2(props){
                             </p>
                             <p> - Anonimous User</p>
                         </div>
-                        <div className='card2-stars'>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                        <div className='card2Asi'>
+                            <div className='card2-stars'>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div className='card2-fecha'>26/01/2023 a las 07:30</div>
                         </div>
                     </div>
                     <p className='card2-description'>

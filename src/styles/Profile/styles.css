@@ -148,6 +148,12 @@
     font-weight: 600;
     margin: 15px 0px;
 }
+.Prsocial{
+    font-size: 14px;
+}
+.Prsocial p{
+    margin-bottom: 5px;
+}
 .Prstats-container{
     background-color: var(--color4);
     width: 80%;
@@ -187,6 +193,47 @@
 }
 .Prtitle-stat{
     font-weight: 600;
+    position:relative;
+}
+.Prtitle-stat span::after{
+    content: "Belleza";
+    top:-15px;
+    left: 10px;
+    width: 39px;
+    height: 12px;
+    font-size: 11px;
+    position: absolute;
+    background-color: var(--color2);
+    color: black;
+    font-family: Ubuntu;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity:0;
+}
+.Prstat:nth-child(2) .Prtitle-stat span:after{
+    content: "Personalidad";
+    left: 10px;
+    width: 69px;
+}
+.Prstat:nth-child(3) .Prtitle-stat span:after{
+    content: "Humor";
+    left: 10px;
+    width: 39px;
+}
+.Prstat:nth-child(4) .Prtitle-stat span:after{
+    content: "Inteligencia";
+    left: 10px;
+    width: 63px;
+}
+.Prstat:nth-child(5) .Prtitle-stat span:after{
+    content: "Sociabilidad";
+    left: 10px;
+    width: 65px;
+}
+.Prstat:hover > .Prtitle-stat span::after{
+    opacity: 1;
 }
 .Prpoints-ofstat{
     height: 15px;
