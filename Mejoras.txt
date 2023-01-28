@@ -6,8 +6,6 @@ estado civil
 agregar botones redes sociales
 
 limites de caracteres comentarios del perfil y en la descripción
-contar likes y comentarios
-mete dislike
 hilos para los comentarios
 
 inicio

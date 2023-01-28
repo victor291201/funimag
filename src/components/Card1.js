@@ -6,10 +6,22 @@ import "../styles/Card1/styles.css";
 function Card1(props){
         return(
             <div className='card1'>
+                {props.tipo?
+                    <div className='card1-pt3-2'>
+                        <p>Nuevo usuario</p>
+                        <span class="material-symbols-outlined">
+                            magic_button
+                        </span>
+                    </div>
+                    :
+                    <div className='card1-pt3-1'>
+                        #999
+                    </div>
+                }
                 <div className='card1-pt1'>
                     <div className='card1-info'>
                         <div className='card1-person'></div>
-                        <p className='card1-name'>Jane doe</p>
+                        <p className='card1-name'>Jane doe <span>(Ing Sistemas)</span></p>
                         <p className='card1-aditional-info'>
                             <span class="material-symbols-outlined">
                             female
@@ -24,11 +36,27 @@ function Card1(props){
                 <div className='card1-pt2'>
                     <div className='card1-stats'>
                         <h3>Stats</h3>
-                        <h1>4,3</h1>
+                        <div className='card1-stat'>
+                            <p className='card1-title-stat'>
+                            <span class="material-symbols-outlined">
+                                bar_chart
+                            </span>
+                            </p>
+                            <div className='card1-points-ofstat'>
+                                <div className='card1-points'></div>
+                            </div>
+                            <p>4,2</p>
+                        </div>
                     </div>
                     <div className='card1-reviews'>
-                        <h3>Valoracion</h3>
-                        <h1>4,3</h1>
+                        <h3>Valoracion <span>(4,2)</span></h3>
+                        <div className="card1-stars">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
                     </div>
                 </div>
             </div>

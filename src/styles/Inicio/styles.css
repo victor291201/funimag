@@ -9,8 +9,22 @@
 .Nanav{
     grid-area: nav;
 }
-.Inranking{
+.Incontainer{
     grid-area: ranking;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: "filters content ads";
+}
+.Infilters{
+    width: 100%;
+}
+.Inads{
+    width: 100%;
+}
+.Inranking{
+    grid-area: content;
     width: 100%;
     display: flex;
     flex-direction: column;
