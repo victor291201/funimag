@@ -3,19 +3,26 @@
     background-color: var(--color2);
     display: grid;
     grid-template-rows:60px auto ;
-    grid-template-areas: "nav" "ranking";
+    grid-template-areas: "nav" "container";
     width: 100%;
     height: 100%;
 }
 .Nanav{
     grid-area: nav;
 }
-.Varanking{
-    grid-area: ranking;
+.Vacontainer{
+    grid-area: container;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: "filters content ads";
+}
+.Varanking{
+    grid-area: content;
     padding: 20px 0px;
+}
+.Vaads{
+    grid-area: ads;
+    padding: 20px;
 }

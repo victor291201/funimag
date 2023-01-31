@@ -8,7 +8,7 @@ import './styles/BaseStyles/styles.css';
 
 function App() {
   return (
-    <Inicio/>
+    <Valoracion/>
   );
 }
 

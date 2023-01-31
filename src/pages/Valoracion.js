@@ -14,7 +14,7 @@ class Valoracion extends Component{
         return(
             <div className='Vabody'>
                 <Navbar/>
-                <div>
+                <div className='Vacontainer'>
                     <Filter/>
                     <div className='Varanking'>
                         <Card1/>
@@ -22,7 +22,7 @@ class Valoracion extends Component{
                         <Card1/>
                         <Card1/>
                     </div>
-                    <div></div>
+                    <div className='Vaads'></div>
                 </div>
             </div>
 

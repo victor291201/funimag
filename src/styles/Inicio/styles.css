@@ -69,18 +69,6 @@
     font-size: 15px;
     font-weight: 600;
 }
-.Instars{
-    width: 130px;
-    height: 25px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.Instars div{
-    width: 25px;
-    height: 25px;
-    background-color: var(--color5);
-    clip-path: var(--cliphy-star);
-}
 .Ininputscontainer div p{
     font-size: 13px;
     margin-top: 5px;
