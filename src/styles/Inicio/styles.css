@@ -14,11 +14,17 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-areas: "filters content ads";
 }
 .Infilters{
     width: 100%;
+    padding: 20px 27px;
+    height: 100vh;
+    grid-area: filters;
+    overflow-y: auto;
+    position: sticky;
+    top: 0px;
 }
 .Inads{
     width: 100%;
@@ -31,4 +37,64 @@
     align-items: center;
     justify-content: start;
     padding: 20px 0px;
+}
+.Infilter-container-Tshearch,.Infilter-container-Valorations,.Infilter-container-Peoples{
+    background-color: var(--color4);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: var(--box-shadow);
+}
+.Infilter-container-Tshearch h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+.Infilter-container-Tshearch .Ininputscontainer{
+    width: 100%;
+    height: 37px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+.Infilter-container-Valorations .Ininputscontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.Infilter-container-Valorations h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+.Instars{
+    width: 130px;
+    height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Instars div{
+    width: 25px;
+    height: 25px;
+    background-color: var(--color5);
+    clip-path: var(--cliphy-star);
+}
+.Ininputscontainer div p{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.Indate input:nth-child(2){
+    margin-bottom: 5px;
+}
+.Infilter-container-Peoples{
+    margin-bottom: 0px;
+}
+.Ingender input, .Ininputscontainer input{
+    margin-right: 5px;
+}
+.Ingender label{
+    font-size: 13px;
 }

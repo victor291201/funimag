@@ -1,64 +1,46 @@
-.Rabody{
-    background-color: var(--color2);
-    display: grid;
-    grid-template-rows:60px auto ;
-    grid-template-areas: "nav" "container";
-    width: 100%;
-    height: 100%;
-}
-.Nanav{
-    grid-area: nav;
-}
-.Racontainer{
-    grid-area: container;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: "filters content ads";
-}
-.Rainputscontainer div p{
+
+.inputscontainer div p{
     font-size: 13px;
     margin-top: 5px;
     margin-bottom: 2px;
 }
-.Rastars{
+.stars{
     width: 130px;
     height: 25px;
     display: flex;
     justify-content: space-evenly;
 }
-.Rastars div{
+.stars div{
     width: 25px;
     height: 25px;
     background-color: var(--color5);
     clip-path: var(--cliphy-star);
 }
-.Rafilters{
+.filters{
     grid-area: filters;
     padding: 20px 27px;
     height: 100vh;
     position: sticky;
     top: 0px;
 }
-.Raranking{
+.ranking{
     grid-area: content;
     padding: 20px 0px;
 }
-.Raads{
+.ads{
     grid-area: ads;
     padding: 20px;
 }
-.Rafilter-container-Peoples{background-color: var(--color4);
+.filter-container-Peoples{background-color: var(--color4);
     border: var(--border);
     border-radius: var(--border-radius);
     width: 200px;
     padding: 10px;
     box-shadow: var(--box-shadow);
 }
-.Ragender input{
+.gender input{
     margin-right: 5px;
 }
-.Ragender label{
+.gender label{
     font-size: 13px;
 }

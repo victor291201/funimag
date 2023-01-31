@@ -3,6 +3,7 @@ import "../styles/Inicio/styles.css";
 import Navbar from '../components/Navbar';
 import Card2 from '../components/Card2';
 import Card1 from '../components/Card1';
+import Filter from '../components/Filter';
 
 
 
@@ -18,32 +19,49 @@ class Inicio extends Component{
                     <div className='Infilters'>
                         <div className='Infilters-container'>
                             <div className='Infilter-container-Tshearch'>
-                                <label><input type="checkbox"  value="valoraciones"/>Valoraciones</label>
-                                <label><input type="checkbox"  value="personas"/>Personas</label>
+                                <h4>Tipo de busqueda</h4>
+                                <div className='Ininputscontainer'>
+                                    <label><input type="checkbox"  value="valoraciones"/>Valoraciones</label>
+                                    <label><input type="checkbox"  value="personas"/>Personas</label>
+                                </div>
                             </div>
                             <div className='Infilter-container-Valorations'>
-                                <div className='Instars'>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                </div>
-                                <input type="date" className='Indate'/>
-                                <div className='Inlikes'>
-                                    <input type="range"/>
-                                </div>
-                                <div className='Indislikes'>
-                                    <input type="range"/>
-                                </div>
-                                <div className='Incoments'>
-                                    <input type="range"/>
-                                </div>
-                                <div className='Inedad'>
-                                    <input type="text"/>
+                                <h4>Filtros de valoraciones</h4>
+                                <div className='Ininputscontainer'>
+                                    <div className='Instars-container'>
+                                        <p>Estrellas:</p>
+                                        <div className='Instars'>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                    <div className='Indate'>
+                                        <p>Fecha:</p> 
+                                        <input type="date" className='Incalendar'/>
+                                        <input type="date" className='Incalendar'/>
+                                    </div>
+                                    <div className='Inlikes'>
+                                        <p>Likes:</p> 
+                                        <input type="range"/>
+                                    </div>
+                                    <div className='Indislikes'>
+                                        <p>Dislikes:</p> 
+                                        <input type="range"/>
+                                    </div>
+                                    <div className='Incoments'>
+                                        <p>Comentarios:</p> 
+                                        <input type="range"/>
+                                    </div>
+                                    <div className='Inedad'>
+                                        <p>Edad:</p> 
+                                        <input type="range"/>
+                                    </div>
                                 </div>
                             </div>
-                            <div className='Infilter-container-Peoples'></div>
+                            <Filter type/>
                         </div>
                     </div>
                     <div className='Inranking'>
@@ -55,7 +73,7 @@ class Inicio extends Component{
                         <Card2/>
                     </div>
                     <div className='Inads'>
-                        edede
+                        
                     </div>
                 </div>
             </div>
