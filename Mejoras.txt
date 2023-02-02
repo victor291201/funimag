@@ -14,3 +14,5 @@ personas que se unieron recientemente
 
 terminos y condiciones para salvarnos legalmente
 
+inputs de doble rango para los filtros
+

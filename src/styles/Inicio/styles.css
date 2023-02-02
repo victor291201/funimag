@@ -19,7 +19,7 @@
 }
 .Infilters{
     width: 100%;
-    padding: 20px 27px;
+    padding: 20px 31px;
     height: 100vh;
     grid-area: filters;
     overflow-y: auto;
