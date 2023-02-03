@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import "../styles/Profile/styles.css";
 import Navbar from '../components/Navbar';
 import Card2 from '../components/Card2';
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 
 
@@ -75,8 +76,8 @@ class Profile extends Component{
                         </div>
                     </div>
                     <div className='Prsocial'>
-                        <p>Jane_doe123</p>
-                        <p>Jane doe orozco</p>
+                        <FaInstagram/><p>Jane_doe123</p>
+                        <FaFacebookF/><p>Jane doe orozco</p>
                     </div>
                 </div>
                 <div className='Prstats'>

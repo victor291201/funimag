@@ -1,0 +1,53 @@
+.DRcontainer{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DRmin,.DRmax{
+    width:44px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border-radius: var(--border-radius);
+    border: var(--border);
+}
+.DRrange input{
+    width: 100%;
+}
+.DRrange{
+    position: relative;
+    width: 100px;
+    height: 5px;
+    background-color: var(--color2);
+    margin: 5px;
+    outline: none;
+}
+.DRvalue{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    height: 100%;
+    top: 0px;
+    background-color: var(--color3);
+}
+.DRrange-max, .DRrange-min{
+    position: absolute;
+    width: 101%;
+    top: -4px;
+    -webkit-appearance:none;
+    pointer-events: none;
+    background: none;
+    outline: none;
+}
+.DRrange-max::-webkit-slider-thumb, .DRrange-min::-webkit-slider-thumb{
+    pointer-events: auto;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color3);
+}

@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Card2 from '../components/Card2';
 import Card1 from '../components/Card1';
 import Filter from '../components/Filter';
+import DoubleRange from '../Partials/DoubleRange';
 
 
 
@@ -45,19 +46,19 @@ class Inicio extends Component{
                                     </div>
                                     <div className='Inlikes'>
                                         <p>Likes:</p> 
-                                        <input type="range"/>
+                                        <DoubleRange/>
                                     </div>
                                     <div className='Indislikes'>
                                         <p>Dislikes:</p> 
-                                        <input type="range"/>
+                                        <DoubleRange/>
                                     </div>
                                     <div className='Incoments'>
                                         <p>Comentarios:</p> 
-                                        <input type="range"/>
+                                        <DoubleRange/>
                                     </div>
                                     <div className='Inedad'>
                                         <p>Edad:</p> 
-                                        <input type="range"/>
+                                        <DoubleRange/>
                                     </div>
                                 </div>
                             </div>

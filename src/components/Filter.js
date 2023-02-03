@@ -1,3 +1,4 @@
+import DoubleRange from "../Partials/DoubleRange";
 import "../styles/Filter/styles.css"
 function Filter(props) {
     return (
@@ -36,11 +37,11 @@ function Filter(props) {
                 </div>
                 <div className='coments'>
                     <p>Stats:</p> 
-                    <input type="range"/>
+                        <DoubleRange/>
                 </div>
                 <div className='edad'>
                     <p>Edad:</p> 
-                    <input type="range"/>
+                        <DoubleRange/>
                 </div>
                 <div className='gender'>
                     <p>Genero:</p>
@@ -97,11 +98,11 @@ function Filter(props) {
                     </div>
                     <div className='coments'>
                         <p>Stats:</p> 
-                        <input type="range"/>
+                        <DoubleRange/>
                     </div>
                     <div className='edad'>
                         <p>Edad:</p> 
-                        <input type="range"/>
+                        <DoubleRange/>
                     </div>
                     <div className='gender'>
                         <p>Genero:</p>
