@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import { FaRegThumbsDown, FaRegThumbsUp, FaThumbsUp } from 'react-icons/fa';
 import "../styles/Card2/styles.css";
 
 
@@ -36,12 +37,12 @@ function Card2(props){
                 </div>
                 <div className='card2-interactions'>
                     <span class="material-symbols-outlined">
-                        thumb_up
                         <p>+999</p>
+                        <FaRegThumbsUp/>
                     </span>
                     <span class="material-symbols-outlined">
-                        thumb_down
                         <p>+999</p>
+                        <FaRegThumbsDown/>
                     </span>
                     <span class="material-symbols-outlined">
                         chat_bubble

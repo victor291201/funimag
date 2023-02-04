@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import { FaHome } from 'react-icons/fa';
 import "../styles/Navbar/styles.css";
 
 
@@ -30,7 +31,7 @@ class Navbar extends Component{
                     </div>
                     <div className='Nanav-pt2'>
                         <span class="material-symbols-outlined">
-                            home
+                            <FaHome/>
                         </span>
                         <span class="material-symbols-outlined">
                             bar_chart

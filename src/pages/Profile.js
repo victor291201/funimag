@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import "../styles/Profile/styles.css";
 import Navbar from '../components/Navbar';
 import Card2 from '../components/Card2';
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaBrain, FaFacebookF, FaInstagram } from "react-icons/fa";
 
 
 
@@ -110,7 +110,7 @@ class Profile extends Component{
                                 <div className='Prstat'>
                                     <p className='Prtitle-stat'>
                                         <span class="material-symbols-outlined">
-                                            cognition
+                                            sentiment_very_satisfied
                                         </span>
                                     </p>
                                     <div className='Prpoints-ofstat'>
@@ -121,7 +121,7 @@ class Profile extends Component{
                                 <div className='Prstat'>
                                     <p className='Prtitle-stat'>
                                         <span class="material-symbols-outlined">
-                                            smart_toy
+                                            <FaBrain/>
                                         </span>
                                     </p>
                                     <div className='Prpoints-ofstat'>
