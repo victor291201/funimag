@@ -1,10 +1,12 @@
-import React,{Component} from 'react';
+import React,{Component, useState} from 'react';
+import Comment from '../Partials/Comment';
 import { FaPaperPlane, FaRegThumbsDown, FaRegThumbsUp, FaThumbsUp } from 'react-icons/fa';
 import "../styles/Card2/styles.css";
 
 
 
 function Card2(props){
+    const [Toggle, setToggle] = useState(false);
         return(
             <div className='card2'>
                 <div className='card2-pt1'>
@@ -55,22 +57,24 @@ function Card2(props){
                         <FaPaperPlane className='icon'/>
                     </div>
                     <div className='card2-comments'>
-                        <div className='card2-coment1'>
-                            <div className='card2-comentUser'>
-                                <p>Anonymous user1</p> <p> 29/12/2001 7:00pm</p>
+                        {Toggle?
+                            <div>
+                                <div className="card2-MostrarMas">
+                                    <a onClick={()=>{setToggle(false)}}>Ocultar comentarios</a>
+                                    <span class="material-symbols-outlined">
+                                    undo
+                                    </span>
+                                </div>
+                            <Comment RepliedComents/>
                             </div>
-                            <div className='card2-comentComent'>
-                                lorem ipsum dolorsit asimet lorem ipsum dolorsit asimet lorem ipsum dolorsit asimet lorem ipsum dolorsit asimet
+                            :
+                            <div className="card2-MostrarMas">
+                                <a onClick={()=>{setToggle(true)}}>Mostrar comentarios</a>
+                                <span class="material-symbols-outlined">
+                                undo
+                                </span>
                             </div>
-                        </div>
-                        <div className='card2-coment2'>
-                            <div className='card2-comentUser'>
-                                <p>Anonymous user1</p> <p> 29/12/2001 7:00pm</p>
-                            </div>
-                            <div className='card2-comentComent'>
-                                lorem ipsum dolorsit asimet lorem ipsum dolorsit asimet lorem ipsum dolorsit asimet lorem ipsum dolorsit asimet
-                            </div>
-                        </div>
+                        }
                     </div>
                 </div>
             </div>

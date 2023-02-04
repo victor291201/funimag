@@ -1,0 +1,53 @@
+
+.Cocoment2 .CocomentComent{
+    margin-bottom: 10px;
+}
+.Cocoment2:nth-child(1){
+    margin-top: 10px;
+}
+.Cocoment2{
+    margin-left: 25px;
+}
+.CocomentUser{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.CoMostrarMas{
+    margin-left: 20px;
+}
+.CoMostrarMas a:hover{
+    text-decoration: underline;
+}
+.CoMostrarMas a{
+    cursor: pointer;
+}
+.CoMostrarMas span{
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+    top:3px;
+}
+.CocomentUser p:nth-child(1){
+   font-weight: 500;
+}
+.CocomentUser p:nth-child(2){
+   font-size: 11px;
+}
+.Cocoment1 a{
+    font-size: 11px;
+}
+.Coinput{
+    width: calc(100% - 20px);
+    position: relative;
+    height: 25px;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+.Coinput .icon{
+    position: absolute;
+    top: 4px;
+    right: 5px;
+}

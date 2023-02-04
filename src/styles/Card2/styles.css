@@ -4,7 +4,7 @@
     border-radius: var(--border-radius);
     border: var(--border);
     background-color: var(--color4);
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 10px 20px;
     margin: 0px 5%;
     margin-bottom: 20px;
     -webkit-box-shadow: var(--box-shadow);
@@ -155,6 +155,20 @@
 }
 .card2-coment1,.card2-coment2{
     margin-bottom: 10px;
+}
+.card2-MostrarMas{
+    font-size: 11px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+.card2-MostrarMas a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card2-MostrarMas span{
+    font-size: 15px;
+    position: relative;
+    top:3px;
 }
 .card2-coment2{
     margin-left: 25px;
