@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import { FaRegThumbsDown, FaRegThumbsUp, FaThumbsUp } from 'react-icons/fa';
+import { FaPaperPlane, FaRegThumbsDown, FaRegThumbsUp, FaThumbsUp } from 'react-icons/fa';
 import "../styles/Card2/styles.css";
 
 
@@ -48,6 +48,30 @@ function Card2(props){
                         chat_bubble
                         <p>+999</p>
                     </span>
+                </div>
+                <div className='card2-containerComments'>
+                    <div className='card2-input'>
+                        <input type="text" placeholder='Comentar...'/>
+                        <FaPaperPlane className='icon'/>
+                    </div>
+                    <div className='card2-comments'>
+                        <div className='card2-coment1'>
+                            <div className='card2-comentUser'>
+                                <p>Anonymous user1</p> <p> 29/12/2001 7:00pm</p>
+                            </div>
+                            <div className='card2-comentComent'>
+                                lorem ipsum dolorsit asimet lorem ipsum dolorsit asimet lorem ipsum dolorsit asimet lorem ipsum dolorsit asimet
+                            </div>
+                        </div>
+                        <div className='card2-coment2'>
+                            <div className='card2-comentUser'>
+                                <p>Anonymous user1</p> <p> 29/12/2001 7:00pm</p>
+                            </div>
+                            <div className='card2-comentComent'>
+                                lorem ipsum dolorsit asimet lorem ipsum dolorsit asimet lorem ipsum dolorsit asimet lorem ipsum dolorsit asimet
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
