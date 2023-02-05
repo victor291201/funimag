@@ -76,8 +76,8 @@ class Profile extends Component{
                         </div>
                     </div>
                     <div className='Prsocial'>
-                        <FaInstagram/><p>Jane_doe123</p>
-                        <FaFacebookF/><p>Jane doe orozco</p>
+                        <p><div><FaInstagram/></div>Jane_doe123</p>
+                        <p><div><FaFacebookF/></div>Jane doe orozco</p>
                     </div>
                 </div>
                 <div className='Prstats'>

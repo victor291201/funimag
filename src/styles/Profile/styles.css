@@ -150,9 +150,21 @@
 }
 .Prsocial{
     font-size: 14px;
+    margin-top: 10px;
 }
 .Prsocial p{
-    margin-bottom: 5px;
+    margin-bottom:7px;
+    cursor: pointer;
+}
+.Prsocial p:hover{
+    text-decoration: underline;
+}
+.Prsocial p div{
+    position: relative;
+    top: 1.5px;
+    width: 17px;
+    display: inline-block;
+
 }
 .Prstats-container{
     background-color: var(--color4);
@@ -236,7 +248,7 @@
     opacity: 1;
 }
 .Prpoints-ofstat{
-    height: 15px;
+    height: 10px;
     width: 150px;
     background-color: var(--color2);
     border-radius: 10px;
@@ -245,7 +257,7 @@
     margin: 0px 10px;
 }
 .Prpoints{
-    height: 15px;
+    height: 10px;
     width: 80px;
     background-color: var(--color3);
     border-radius: 10px;

@@ -80,7 +80,7 @@
     opacity: 1;
 }
 .card1-points-ofstat{
-    height: 15px;
+    height: 8px;
     width: 100px;
     background-color: var(--color2);
     border-radius: 10px;
@@ -89,7 +89,7 @@
     margin: 0px 10px;
 }
 .card1-points{
-    height: 15px;
+    height: 8px;
     width: 90px;
     background-color: var(--color3);
     border-radius: 10px;
