@@ -83,64 +83,82 @@ class Profile extends Component{
                 <div className='Prstats'>
                     <div className='Prstats-container'>
                         <div className='Prstats-title'>
-                            <h1>stats</h1>
-                            <div className='Prcontainer-stats'>
-                                <div className='Prstat'>
-                                    <p className='Prtitle-stat'>
-                                        <span class="material-symbols-outlined">
-                                            favorite
-                                        </span>
-                                    </p>
-                                    <div className='Prpoints-ofstat'>
-                                        <div className='Prpoints'></div>
+                            <div className='Prcstats'>
+                                <h1>stats</h1>
+                                <div className='Prcontainer-stats'>
+                                    <div className='Prstat'>
+                                        <p className='Prtitle-stat'>
+                                            <span class="material-symbols-outlined">
+                                                favorite
+                                            </span>
+                                        </p>
+                                        <div className='Prpoints-ofstat'>
+                                            <div className='Prpoints'></div>
+                                        </div>
+                                        <p>4,2</p>
                                     </div>
-                                    <p>4,2</p>
-                                </div>
-                                <div className='Prstat'>
-                                    <p className='Prtitle-stat'>
-                                        <span class="material-symbols-outlined">
-                                            psychology
-                                        </span>
-                                    </p>
-                                    <div className='Prpoints-ofstat'>
-                                        <div className='Prpoints'></div>
+                                    <div className='Prstat'>
+                                        <p className='Prtitle-stat'>
+                                            <span class="material-symbols-outlined">
+                                                psychology
+                                            </span>
+                                        </p>
+                                        <div className='Prpoints-ofstat'>
+                                            <div className='Prpoints'></div>
+                                        </div>
+                                        <p>4,2</p>
                                     </div>
-                                    <p>4,2</p>
-                                </div>
-                                <div className='Prstat'>
-                                    <p className='Prtitle-stat'>
-                                        <span class="material-symbols-outlined">
-                                            sentiment_very_satisfied
-                                        </span>
-                                    </p>
-                                    <div className='Prpoints-ofstat'>
-                                        <div className='Prpoints'></div>
+                                    <div className='Prstat'>
+                                        <p className='Prtitle-stat'>
+                                            <span class="material-symbols-outlined">
+                                                sentiment_very_satisfied
+                                            </span>
+                                        </p>
+                                        <div className='Prpoints-ofstat'>
+                                            <div className='Prpoints'></div>
+                                        </div>
+                                        <p>4,2</p>
                                     </div>
-                                    <p>4,2</p>
-                                </div>
-                                <div className='Prstat'>
-                                    <p className='Prtitle-stat'>
-                                        <span class="material-symbols-outlined">
-                                            <FaBrain/>
-                                        </span>
-                                    </p>
-                                    <div className='Prpoints-ofstat'>
-                                        <div className='Prpoints'></div>
+                                    <div className='Prstat'>
+                                        <p className='Prtitle-stat'>
+                                            <span class="material-symbols-outlined">
+                                                <FaBrain/>
+                                            </span>
+                                        </p>
+                                        <div className='Prpoints-ofstat'>
+                                            <div className='Prpoints'></div>
+                                        </div>
+                                        <p>4,2</p>
                                     </div>
-                                    <p>4,2</p>
-                                </div>
-                                <div className='Prstat'>
-                                    <p className='Prtitle-stat'>
-                                        <span class="material-symbols-outlined">
-                                            groups
-                                        </span>
-                                    </p>
-                                    <div className='Prpoints-ofstat'>
-                                        <div className='Prpoints'></div>
+                                    <div className='Prstat'>
+                                        <p className='Prtitle-stat'>
+                                            <span class="material-symbols-outlined">
+                                                groups
+                                            </span>
+                                        </p>
+                                        <div className='Prpoints-ofstat'>
+                                            <div className='Prpoints'></div>
+                                        </div>
+                                        <p>4,2</p>
                                     </div>
-                                    <p>4,2</p>
                                 </div>
-                                
+                            </div>
+                            <div className='Prcvelocimeter'>
+                                <div className='Prvelocimeterbox'>
+                                    <div className='Prvelocimeter'>
+                                        <div className='Prvelocimeterboard'>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                        <div className='Prvelocimeterpointer'>
+                                            <div>
+                                                <div></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="number"/>
+                                </div>
                             </div>
                         </div>
                     </div>

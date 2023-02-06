@@ -3,7 +3,6 @@ velocimetro con colores para la media
 
 gustos poner lo que no te gusta tambien
 estado civil
-agregar botones redes sociales
 
 limites de caracteres comentarios del perfil y en la descripción
 hilos para los comentarios
