@@ -157,7 +157,7 @@ class Profile extends Component{
                                             </div>
                                         </div>
                                     </div>
-                                    <input type="number"/>
+                                    <input type="number" value={4.2}/>
                                 </div>
                             </div>
                         </div>
