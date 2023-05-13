@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import { FaHome } from 'react-icons/fa';
 import "../styles/Navbar/styles.css";
+import { Link } from 'react-router-dom';
 
 
 
@@ -30,15 +31,21 @@ class Navbar extends Component{
                         </div>
                     </div>
                     <div className='Nanav-pt2'>
-                        <span class="material-symbols-outlined">
-                            <FaHome/>
-                        </span>
-                        <span class="material-symbols-outlined">
-                            bar_chart
-                        </span>
-                        <span class="material-symbols-outlined">
-                            star
-                        </span>
+                        <Link to="/">
+                            <span class="material-symbols-outlined">
+                                <FaHome/>
+                            </span>
+                        </Link> 
+                        <Link to="/ranking">
+                            <span class="material-symbols-outlined">
+                                bar_chart
+                            </span>
+                        </Link>
+                        <Link to="/valoracion">
+                            <span class="material-symbols-outlined">
+                                star
+                            </span>
+                        </Link>
                     </div>
                     <div className='Nanav-pt3' onClick={this.onClick}>
                         <div className='Nauser'></div>
@@ -48,7 +55,11 @@ class Navbar extends Component{
                         this.state.toggle?
                             <div className='Namenu'>
                                 <ul>
-                                    <li>Ver Perfil</li>
+                                    <li>
+                                        <Link to="/perfil">
+                                            Ver Perfil
+                                        </Link>
+                                    </li>
                                     <li>Cambiar Contraseña</li>
                                     <li>Cerrar Sesion</li>
                                 </ul>

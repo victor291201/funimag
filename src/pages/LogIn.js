@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import "../styles/LogIn/styles.css";
+import { Link } from 'react-router-dom';
 
 
 
@@ -66,7 +67,7 @@ class LogIn extends Component{
                         </div>
                         <p className='Lgolvidaste'>¿Olvidaste tu contraseña?</p>
                         <hr/>
-                        <button className='Lgregister'>Registrarse</button>
+                        <Link to="registrarse"><button className='Lgregister'>Registrarse</button></Link> 
                     </div>
                 </div>
             </div>
