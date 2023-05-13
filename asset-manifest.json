@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/funimag/static/css/main.03672281.css",
+    "main.js": "/funimag/static/js/main.2454b54f.js",
+    "static/js/787.450c2be4.chunk.js": "/funimag/static/js/787.450c2be4.chunk.js",
+    "static/media/foto1.jpeg": "/funimag/static/media/foto1.8e8d967ac5602c9c54c5.jpeg",
+    "static/media/foto3.jpg": "/funimag/static/media/foto3.c4be947133887f417fe7.jpg",
+    "static/media/foto2.jpg": "/funimag/static/media/foto2.acf8b531c76a33a9d54d.jpg",
+    "static/media/foto4.jfif": "/funimag/static/media/foto4.e689342d8f755b56a055.jfif",
+    "static/media/logo.PNG": "/funimag/static/media/logo.e775df11d591c40176cc.PNG",
+    "static/media/profile.jfif": "/funimag/static/media/profile.735f25e30e72ab477986.jfif",
+    "index.html": "/funimag/index.html",
+    "main.03672281.css.map": "/funimag/static/css/main.03672281.css.map",
+    "main.2454b54f.js.map": "/funimag/static/js/main.2454b54f.js.map",
+    "787.450c2be4.chunk.js.map": "/funimag/static/js/787.450c2be4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03672281.css",
+    "static/js/main.2454b54f.js"
+  ]
+}
