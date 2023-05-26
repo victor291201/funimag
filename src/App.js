@@ -1,13 +1,17 @@
-import Profile from './pages/Profile';
-import Ranking from './pages/Ranking';
-import Valoracion from './pages/Valoracion';
-import Inicio from "./pages/Inicio";
-import LogIn from './pages/LogIn';
-import Register from "./pages/Register"
-import './styles/BaseStyles/styles.css';
+import LogIn from "./features/login/pages/LogIn"
+import Register from "./features/register/pages/Register"
+import Inicio from "./features/inicio/pages/Inicio"
+import Ranking from "./features/ranking/pages/Ranking"
+import Titration from "./features/titration/pages/Titration"
+import Profile from "./features/profile/pages/Profile"
+import './global/styles/baseStyles/styles.css';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { useContext } from "react"
+import { DataContext } from "./controllers/Context"
+
 
 function App() {
+  const {GlobalState} = useContext(DataContext);
   if(false){
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -24,7 +28,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Inicio/>}/>
           <Route path='/ranking' element={<Ranking/>}/>
-          <Route path='/valoracion' element={<Valoracion/>}/>
+          <Route path='/valoracion' element={<Titration/>}/>
           <Route path='/perfil' element={<Profile/>}/>
         </Routes>
       </BrowserRouter>

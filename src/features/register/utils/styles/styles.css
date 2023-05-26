@@ -1,0 +1,115 @@
+.Rebody{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Reimg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+}
+.Reimg .img1{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../../global/assets/foto1.jpeg);
+    filter: brightness(50%);
+    background-size: cover;
+    background-position: center;
+    transition: 1s opacity ease;
+    opacity: 1;
+}
+.Reimg .img2{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../../global/assets/foto2.jpg);
+    filter: brightness(50%);
+    background-size: cover;
+    background-position: center;
+    transition: 1s opacity ease;
+    opacity: 1;
+}
+.Reimg .img3{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../../global/assets/foto3.jpg);
+    filter: brightness(50%);
+    background-size: cover;
+    background-position: center;
+    transition: 1s opacity ease;
+    opacity: 1;
+}
+.Reimg .img4{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../../global/assets/foto4.jfif);
+    filter: brightness(50%);
+    background-size: cover;
+    background-position: center;
+    transition: 1s opacity ease;
+    opacity: 1;
+}
+.Redisapear{
+    opacity: 0 !important;
+}
+.Recard{
+    width: 350px;
+    height:204px;
+    background-color: var(--color4);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    padding: 10px 13px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.Recard h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Reinput{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.Reinput input{
+    width: 100%;
+    height: 26px;
+    outline: none;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 4px 7px;
+    margin-bottom: 10px;
+}
+.Reinput label{
+    font-size: 11px;
+}
+.Recard button{
+    width: 110px;
+    height: 30px;
+    background-color: var(--color1);
+    color: var(--color2);
+    border-radius: var(--border-radius);
+    border:0px;
+    outline: none;
+    margin: 10px 0px 20px;
+}
